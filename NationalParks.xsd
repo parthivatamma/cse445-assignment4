@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            targetNamespace="http://my.nationalparks.edu/xml"
-            xmlns="http://my.nationalparks.edu/xml"
-            elementFormDefault="qualified">
-
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  
   <xsd:element name="NationalParks">
     <xsd:complexType>
       <xsd:sequence>
-        
         <xsd:element name="NationalPark" minOccurs="1" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
               
               <xsd:element name="Name" type="xsd:string" />
-              
               <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
               
               <xsd:element name="Address">
@@ -25,18 +20,16 @@
                     <xsd:element name="State" type="xsd:string" />
                     <xsd:element name="Zip" type="xsd:string" />
                   </xsd:sequence>
-                  
                   <xsd:attribute name="NearestAirport" type="xsd:string" use="required" />
                 </xsd:complexType>
               </xsd:element>
               
             </xsd:sequence>
-            
-            <xsd:attribute name="Rating" type="xsd:string" use="optional" />
+            <xsd:attribute name="Rating" type="xsd:decimal" use="optional" />
           </xsd:complexType>
         </xsd:element>
-        
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
+  
 </xsd:schema>
