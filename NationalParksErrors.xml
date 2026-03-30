@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NationalPark> 
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Address NearestAirport="Flagstaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Yellowstone</Name>
+    <Phone>307-344-7381</Phone>
+    <Address>
+      <Number>2</Number>
+      <Street>Grand Loop Road</Street>
+      <City>Yellowstone</City>
+      <State>WY</State>
+      <Zip>82190</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Yosemite</Name>
+    <Address NearestAirport="Fresno">
+      <Number>9039</Number>
+      <Street>Village Drive</Street>
+      <City>Yosemite Valley</City>
+      <State>CA</State>
+      <Zip>95389</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.9">
+    <Name>Zion</Name>
+    <Phone>435-772-3256</Phone>
+    <Address NearestAirport="St. George">
+      <Number>1</Number>
+      <Street>Zion Park Blvd</Street>
+      <City>Springdale</City>
+      <State>UT</State>
+      <Zip>84767</Zip>
+    </NationalPark>
+  <NationalPark>
+    <Name>Glacier</Name>
+    <Name>Glacier National Park Secondary Name</Name>
+    <Phone>406-888-7800</Phone>
+    <Address NearestAirport="Kalispell">
+      <Number>64</Number>
+      <Street>Going-to-the-Sun Road</Street>
+      <City>West Glacier</City>
+      <State>MT</State>
+      <Zip>59936</Zip>
+    </Address>
+  </NationalPark>
+</NationalPark>
