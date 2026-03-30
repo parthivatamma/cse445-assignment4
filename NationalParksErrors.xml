@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<NationalPark> 
+<?xml version="1.0" encoding="UTF-8"?>
+<NationalPark xmlns="http://my.nationalparks.edu/xml"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://my.nationalparks.edu/xml NationalParks.xsd">
+               
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
-    <Address NearestAirport="Flagstaff">
+    <Address NearestAirport="FlagStaff">
       <Number>8</Number>
       <Street>S Entrance Road</Street>
       <City>Grand Canyon</City>
@@ -11,6 +14,7 @@
       <Zip>86023</Zip>
     </Address>
   </NationalPark>
+  
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
@@ -22,6 +26,7 @@
       <Zip>82190</Zip>
     </Address>
   </NationalPark>
+
   <NationalPark>
     <Name>Yosemite</Name>
     <Address NearestAirport="Fresno">
@@ -32,6 +37,7 @@
       <Zip>95389</Zip>
     </Address>
   </NationalPark>
+
   <NationalPark Rating="4.9">
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
@@ -42,6 +48,7 @@
       <State>UT</State>
       <Zip>84767</Zip>
     </NationalPark>
+
   <NationalPark>
     <Name>Glacier</Name>
     <Name>Glacier National Park Secondary Name</Name>
